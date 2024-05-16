@@ -1,0 +1,15 @@
+label ,centre 55% {
+    font-weight: 300;
+    margin: 30px auto;
+    padding: 80px;
+
+}
+/* cyrillic-ext */{
+
+    @font-face {
+        font-family: 'Roboto';
+        font-style: italic;
+        font-weight: 300;
+        src:
+        
+    }

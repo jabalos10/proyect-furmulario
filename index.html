@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>red social para mascotas</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <h1>Bienvenido a instapet</h1>
+    <p>
+        instapet es una red social donde puedes compartir las aventuras de tus mascotas 
+    </p>
+
+    <form
+      action="https://formsubmit.co/julianabalos9@gmail.com"
+      method="post"
+    >
+    <label for="nombre_mascota">Nombre de la mascota:</label>
+      <input
+        type="text"
+        id="nombre_mascota"
+        name="nombre_mascota"
+        placeholder="Nombre de la mascota"
+        required
+      /><br /><br />
+      <label for="edad_mascota">Edad de la mascota:</label>
+      <input
+        type="number"
+        id="edad_mascota"
+        name="edad_mascota"
+        placeholder="Edad de la mascota"
+        required
+      /><br /><br />
+      <label for="correo">Correo electrónico:</label>
+      <input
+        type="email"
+        id="correo"
+        name="correo"
+        placeholder="Correo electrónico"
+        required
+      /><br /><br />
+      <label for="contraseña">Contraseña:</label>
+      <input
+        type="password"
+        id="contraseña"
+        name="contraseña"
+        placeholder="Contraseña"
+        required
+      /><br /><br />
+      <label>Género de la mascota:</label><br />
+      <input type="radio" id="macho" name="genero" value="macho" required />
+      <label for="macho">Macho</label><br />
+      <input type="radio" id="hembra" name="genero" value="hembra" required />
+      <label for="hembra">Hembra</label><br /><br />
+
+      <label for="color">Color de la mascota:</label>
+      <input type="color" id="color" name="color" /><br /><br />
+
+      <label for="tipo_mascota">Tipo de mascota:</label>
+      <select id="tipo_mascota" name="tipo_mascota" required>
+        <option value="" disabled selected>Selecciona un tipo</option>
+        <option value="perro">Perro</option>
+        <option value="gato">Gato</option>
+        <option value="cobayo">Cobayo</option>
+        <option value="otra">Otra</option></select
+      ><br /><br />
+
+      <input
+        type="checkbox"
+        id="bases_y_condiciones"
+        name="bases_y_condiciones"
+        value="acepta"
+        required
+      />
+      <label for="bases_y_condiciones">Acepto las bases y condiciones</label
+      ><br /><br />
+
+     <input type="submit" value="enviar">
+     <input type="submit" value="limpiar">
+     </form>
+</body>
+</html>
